@@ -1,0 +1,267 @@
+body,*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,a,span,input{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+
+/*<!-- header section css code start here -->*/
+
+.header{
+	padding: 16px 0px;
+
+
+}
+.navbar{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	 
+ 
+}
+.h-left{
+	  flex-basis: 50%;
+	  background: #015761;
+	  height: 491px;
+	  
+}
+.h-left h2{
+	margin-left: 34px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: #809c58;
+
+}
+.h-left ul {
+	 list-style: none;
+	 margin-left: 20px;
+	 
+}
+.h-left ul li {
+	display: inline-block;
+	 
+     margin:  0px 16px;
+
+
+}
+.h-left ul li a{
+	color: #ffffff;
+	}
+
+ .h-left ul li a:hover{
+	color:#ff6162 ;
+}
+
+ .middle{
+	padding: 80px;
+	padding-left: 167px;
+
+	 
+	 
+	 
+}
+.middle h1{
+	font-size: 60px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-left: -4px;
+  
+	 
+}
+.middle h3 {
+  
+ color: #779758;
+ font-size: 26px;
+ font-weight: 700;
+}
+.middle p{
+	 
+	color: #ffffff;
+}
+
+}
+.h-right{
+	 
+}
+/*<!-- header section css code end here -->*/
+
+/*<!-- banner section css code start here -->*/
+
+.banner{
+	 
+     width: 100%;
+	 height: 100vh; 
+}
+.banner-text{
+	 text-align: center;
+	 background: #f1f0f0;
+	 margin-top: -137px;
+	 padding-top: 50px;
+	 margin-right: 50px;
+}
+.banner-text h1{
+	 font-size: 26px;
+     font-weight: 700;
+     color: #015761;
+     padding-bottom: 16px;
+}
+.banner-text p{
+	font-size: 16px;
+	line-height: 27px;
+	color: #616161;
+	margin-bottom: 40px;
+}
+.banner-text button{
+	font-size: 16px;
+	padding: 10px 22px;
+	border-style: none;
+	background: #f7dc4f;
+	color: #658d5a;
+	margin-bottom: 120px;
+}
+/*<!-- banner section css code end here -->*/
+/*<!-- poetfolio section css code start here -->*/
+.portfolio{
+	text-align: center;
+	margin-top: -71px;
+}
+.portfolio-item{
+	 width: 100%;
+	height: 100vh;
+}
+.portfolio-item img{
+	width: 100%;
+	margin-right: 50px;
+}
+.portfolio-item h1{
+	font-weight: 700;
+	font-size: 40px;
+	padding-bottom: 50px;
+	color: #015761;
+}
+.portfolio-item img{
+	background-size: cover;
+	 width: 100%;
+	 margin-right: 50px;
+}
+
+/*<!-- poetfolio section css code end here -->*/
+/*<!-- gallery section css code start here -->*/
+
+.gallery{
+	text-align: center;
+    padding: 30px 0px;
+}
+.heading h1{
+	padding-bottom: 60px;
+	color: #015761;
+	padding-top: 30px;
+    font-size: 40px;
+	font-weight: 700;
+}
+.gallery-item{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+} 
+.Item img{
+	padding: 5px;
+ }
+/*<!-- gallery section css code end here -->*/
+
+/*<!-- information section css code start here -->*/
+.information{
+ 
+}
+.information-item{
+	 
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100vh;
+}
+
+.info-left img{
+    width: 100%;
+	 
+}
+.info-right{
+	background: #015761;
+	flex-basis: 50%;
+	   
+	height: 467px;
+	padding-left: 110px;
+    padding-top: 25px;
+    width: 100%;
+    margin-right: -171px;
+}
+.info-right h1{
+	font-size: 50px;
+	font-weight: 700;
+	color: #f7dc4f;
+	padding-bottom: 7px;
+}
+.info-right h2{
+	color: #f9fbfb;
+	padding-bottom: 7px;
+	 font-weight: 600;
+	font-size: 16px;
+}
+
+.info-right p{
+	color: #f9fbfb;
+	line-height: 16px;
+	font-size: 10px;
+
+	padding-bottom: 16px;
+}
+.info-right a i{
+	height:10px;
+	width: 15px;
+	line-height: 10px;
+	color: #f9fbfb;
+	font-size: 10px;
+}
+.info-right a i:hover{
+	 color:#C84B31;
+}
+ 
+
+
+
+
+/*<!-- information section css code end here -->*/
+
+/*<!-- footer section css code start here -->*/
+
+.copyright{
+	 
+
+}
+.footer{
+	text-align: center;
+	padding: 40px 0px;
+	background-image: linear-gradient(#ffffff,#f9fafa );
+	margin-top: -145px;
+	color: #616161;
+	font-size: 14px;
+
+}
+
+/*<!-- footer section css code end here -->*/
+
+ 
